@@ -7,4 +7,4 @@ for port in range(80, 444): #change the port range here i dont know how to do it
         s.connect((target_ip, port))
         print(f"Port {port} is open")
     except:
-        print(f"Port {port} is failed")
+        print(f"Port {port} failed")
