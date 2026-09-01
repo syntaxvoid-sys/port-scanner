@@ -1,7 +1,7 @@
 import socket
 target_ip = input("Enter targets ip here:")
 
-for port in range(input("enter port number start: "), input("enter port number end: ")):
+for port in range(int((input("enter start of port range: ")), int(input("enter end of port range: "))):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try: 
         s.connect((target_ip, port))
