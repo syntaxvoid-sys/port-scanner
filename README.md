@@ -22,7 +22,7 @@ This program:
 python port_scanner.py
 ```
 
-Then enter an IP address when the program asks for one.Then enter the start of the port range.Then enter the end of the port range.
+Then enter an IP address when the program asks for one. Then enter the start of the port range. Then enter the end of the port range.
 
 ## Important
 
